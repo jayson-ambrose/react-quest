@@ -34,6 +34,146 @@
                 "special": 15
             }
         ]
+    },   
+    {
+        "id": 2,
+        "title": "Battle Event",
+        "description": "You triggered a battle! 2",
+        "options": [
+            {
+                "opt-id": 1,
+                "opt-text": "Attack",
+                "response": "You attacked the enemy",
+                "effects": [-5, 2, 4],
+                "special": 15
+            },
+            {
+                "opt-id": 2,
+                "opt-text": "Defend",
+                "response": "You defended",
+                "effects": [0, 2, 15],
+                "special": 15
+            },
+            {
+                "opt-id": 3,
+                "opt-text": "Items",
+                "response": "Items used",
+                "effects": [1, 5, 8],
+                "special": 15
+            },
+            {
+                "opt-id": 3,
+                "opt-text": "Run",
+                "response": "Run",
+                "effects": [1, 5, 8],
+                "special": 15
+            }
+        ]
+    },   
+    {
+        "id": 3,
+        "title": "Battle Event",
+        "description": "You triggered a battle! 3",
+        "options": [
+            {
+                "opt-id": 1,
+                "opt-text": "Attack",
+                "response": "You attacked the enemy",
+                "effects": [-5, 2, 4],
+                "special": 15
+            },
+            {
+                "opt-id": 2,
+                "opt-text": "Defend",
+                "response": "You defended",
+                "effects": [0, 2, 15],
+                "special": 15
+            },
+            {
+                "opt-id": 3,
+                "opt-text": "Items",
+                "response": "Items used",
+                "effects": [1, 5, 8],
+                "special": 15
+            },
+            {
+                "opt-id": 3,
+                "opt-text": "Run",
+                "response": "Run",
+                "effects": [1, 5, 8],
+                "special": 15
+            }
+        ]
+    },   
+    {
+        "id": 4,
+        "title": "Battle Event",
+        "description": "You triggered a battle! 4",
+        "options": [
+            {
+                "opt-id": 1,
+                "opt-text": "Attack",
+                "response": "You attacked the enemy",
+                "effects": [-5, 2, 4],
+                "special": 15
+            },
+            {
+                "opt-id": 2,
+                "opt-text": "Defend",
+                "response": "You defended",
+                "effects": [0, 2, 15],
+                "special": 15
+            },
+            {
+                "opt-id": 3,
+                "opt-text": "Items",
+                "response": "Items used",
+                "effects": [1, 5, 8],
+                "special": 15
+            },
+            {
+                "opt-id": 3,
+                "opt-text": "Run",
+                "response": "Run",
+                "effects": [1, 5, 8],
+                "special": 15
+            }
+        ]
+    },   
+    {
+        "id": 5,
+        "title": "Battle Event",
+        "description": "You triggered a battle5",
+        "options": [
+            {
+                "opt-id": 1,
+                "opt-text": "Attack",
+                "response": "You attacked the enemy",
+                "effects": [-5, 2, 4],
+                "special": 15
+            },
+            {
+                "opt-id": 2,
+                "opt-text": "Defend",
+                "response": "You defended",
+                "effects": [0, 2, 15],
+                "special": 15
+            },
+            {
+                "opt-id": 3,
+                "opt-text": "Items",
+                "response": "Items used",
+                "effects": [1, 5, 8],
+                "special": 15
+            },
+            {
+                "opt-id": 3,
+                "opt-text": "Run",
+                "response": "Run",
+                "effects": [1, 5, 8],
+                "special": 15
+            }
+        ]
     }   
 ]
 }
