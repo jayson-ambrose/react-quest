@@ -1,34 +1,38 @@
+
 {
   "events": [
     {
         "id": 1,
         "title": "Battle Event",
-        "description": "You triggered a battle!",
+        "event": "You triggered a battle!",
+        "description": "A gobiln crawled out from the corner of the room!",
+        "img": "https://whfb.lexicanum.com/mediawiki/images/thumb/c/c6/Goblin_TGP.jpg/425px-Goblin_TGP.jpg",
+        "alt": "goblin",
         "options": [
             {
                 "opt-id": 1,
-                "opt-text": "Attack",
+                "optText": "Attack",
                 "response": "You attacked the enemy",
                 "effects": [-5, 2, 4],
                 "special": 15
             },
             {
                 "opt-id": 2,
-                "opt-text": "Defend",
+                "optText": "Defend",
                 "response": "You defended",
                 "effects": [0, 2, 15],
                 "special": 15
             },
             {
                 "opt-id": 3,
-                "opt-text": "Items",
+                "optText": "Items",
                 "response": "Items used",
                 "effects": [1, 5, 8],
                 "special": 15
             },
             {
                 "opt-id": 3,
-                "opt-text": "Run",
+                "optText": "Run",
                 "response": "Run",
                 "effects": [1, 5, 8],
                 "special": 15
@@ -38,32 +42,35 @@
     {
         "id": 2,
         "title": "Battle Event",
-        "description": "You triggered a battle! 2",
+        "event": "You triggered a battle!",
+        "description": "A mad orge appeard before you with a club!",
+        "img": "https://static.wikia.nocookie.net/ondorwis/images/6/6f/Ogre.jpeg/revision/latest?cb=20200505215020",
+        "alt": "orge",
         "options": [
             {
                 "opt-id": 1,
-                "opt-text": "Attack",
+                "optText": "Attack",
                 "response": "You attacked the enemy",
                 "effects": [-5, 2, 4],
                 "special": 15
             },
             {
                 "opt-id": 2,
-                "opt-text": "Defend",
+                "optText": "Defend",
                 "response": "You defended",
                 "effects": [0, 2, 15],
                 "special": 15
             },
             {
                 "opt-id": 3,
-                "opt-text": "Items",
+                "optText": "Items",
                 "response": "Items used",
                 "effects": [1, 5, 8],
                 "special": 15
             },
             {
                 "opt-id": 3,
-                "opt-text": "Run",
+                "optText": "Run",
                 "response": "Run",
                 "effects": [1, 5, 8],
                 "special": 15
@@ -73,32 +80,35 @@
     {
         "id": 3,
         "title": "Battle Event",
-        "description": "You triggered a battle! 3",
+        "event": "You triggered a battle!",
+        "description": "A helldiver flew in from the window to attack!",
+        "img": "https://www.pngitem.com/pimgs/m/377-3779956_download-giant-creatures-png-pic-red-queen-bird.png",
+        "alt": "helldiver",
         "options": [
             {
                 "opt-id": 1,
-                "opt-text": "Attack",
+                "optText": "Attack",
                 "response": "You attacked the enemy",
                 "effects": [-5, 2, 4],
                 "special": 15
             },
             {
                 "opt-id": 2,
-                "opt-text": "Defend",
+                "optText": "Defend",
                 "response": "You defended",
                 "effects": [0, 2, 15],
                 "special": 15
             },
             {
                 "opt-id": 3,
-                "opt-text": "Items",
+                "optText": "Items",
                 "response": "Items used",
                 "effects": [1, 5, 8],
                 "special": 15
             },
             {
                 "opt-id": 3,
-                "opt-text": "Run",
+                "optText": "Run",
                 "response": "Run",
                 "effects": [1, 5, 8],
                 "special": 15
@@ -108,32 +118,35 @@
     {
         "id": 4,
         "title": "Battle Event",
-        "description": "You triggered a battle! 4",
+        "event": "You triggered a battle!",
+        "description": "A pack of lage red mice came storming in the room!",
+        "img": "https://i.pinimg.com/originals/de/8a/3f/de8a3fdc030c7d1642821f3d08d33f3f.jpg",
+        "alt": "red mice",
         "options": [
             {
                 "opt-id": 1,
-                "opt-text": "Attack",
+                "optText": "Attack",
                 "response": "You attacked the enemy",
                 "effects": [-5, 2, 4],
                 "special": 15
             },
             {
                 "opt-id": 2,
-                "opt-text": "Defend",
+                "optText": "Defend",
                 "response": "You defended",
                 "effects": [0, 2, 15],
                 "special": 15
             },
             {
                 "opt-id": 3,
-                "opt-text": "Items",
+                "optText": "Items",
                 "response": "Items used",
                 "effects": [1, 5, 8],
                 "special": 15
             },
             {
                 "opt-id": 3,
-                "opt-text": "Run",
+                "optText": "Run",
                 "response": "Run",
                 "effects": [1, 5, 8],
                 "special": 15
@@ -142,33 +155,36 @@
     },   
     {
         "id": 5,
-        "title": "Battle Event",
-        "description": "You triggered a battle5",
+        "title": "Treasure Event",
+        "event": "Luck is on your side!",
+        "description": "You came across a trasure chest",
+        "img": "http://atlas-content-cdn.pixelsquid.com/stock-images/treasure-chest-yw0QrPE-600.jpg",
+        "alt": "chest",
         "options": [
             {
                 "opt-id": 1,
-                "opt-text": "Attack",
+                "optText": "Attack",
                 "response": "You attacked the enemy",
                 "effects": [-5, 2, 4],
                 "special": 15
             },
             {
                 "opt-id": 2,
-                "opt-text": "Defend",
+                "optText": "Defend",
                 "response": "You defended",
                 "effects": [0, 2, 15],
                 "special": 15
             },
             {
                 "opt-id": 3,
-                "opt-text": "Items",
+                "optText": "Items",
                 "response": "Items used",
                 "effects": [1, 5, 8],
                 "special": 15
             },
             {
                 "opt-id": 3,
-                "opt-text": "Run",
+                "optText": "Run",
                 "response": "Run",
                 "effects": [1, 5, 8],
                 "special": 15

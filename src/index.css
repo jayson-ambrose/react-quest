@@ -14,14 +14,50 @@ code {
     monospace;
 }
 
+.w-fit-content {
+  width: fit-content;
+}
+
 .bg-img-info {
   background-image: url("https://static.vecteezy.com/system/resources/previews/000/121/658/original/grunge-paper-texture-vectors.jpg");
   background-position: left;
   background-size: cover;
 }
 
-.gameText {
+.btn:hover, input:hover {
+  background-color: rgba(0, 0, 0, 0.68);
+}
+
+.gameText, .btn  {
   font-family: 'Press Start 2P', cursive;
   color: white;
+}
+
+.combat-options:hover {
+cursor: pointer!important;
+background-color: rgb(249, 249, 249)!important;
+}
+
+input, .btn  {
+  background-color: rgba(0, 0, 0, 0.323);
+  border: 0;
+}
+
+input[type="text"]::placeholder {
+                 
+  text-align: center;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(255, 255, 255);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(255, 255, 255);
 }
 

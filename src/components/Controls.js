@@ -1,15 +1,29 @@
 import React from "react";
 
-function Controls({ mapKeys }) {
+function Controls({ mapKeys, count, matchCount }) {
   return (
-    <div className="position-absolute top-100 start-50 translate-middle">
-      <input
-        type="text"
-        className="gameText bg-transparent border-0"
-        placeholder="Start"
-        onKeyDown={mapKeys}
-        tabIndex="0"
-      />
+    <div className="row justify-content-center">
+      {
+        //Check if message failed
+        count === matchCount ? (
+          <input
+            type="text"
+            className="gameText w-fit-content border-0 p-2"
+            placeholder="Start"
+            onKeyDown={mapKeys}
+            tabIndex="0"
+            disabled
+          />
+        ) : (
+          <input
+            type="text"
+            className="gameText w-fit-content border-0 p-2"
+            placeholder="Start"
+            onKeyDown={mapKeys}
+            tabIndex="0"
+          />
+        )
+      }
     </div>
   );
 }

@@ -10,11 +10,9 @@ function GameData({ count, matchCount, gameEventData }) {
       <GameField gameEvent={event} count={count} matchCount={matchCount} />
     ));
   return (
-    <div className="">
-      <div className="row">
-        {gameEvent}
-        <GameInfo />
-      </div>
+    <div className="row">
+      {gameEvent}
+      <GameInfo />
     </div>
   );
 }
