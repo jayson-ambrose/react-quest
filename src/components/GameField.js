@@ -6,8 +6,7 @@ function GameField({ gameEvent, count, matchCount }) {
       {
         //Check if message failed
         count === matchCount ? (
-          ((<h5>{gameEvent.description}</h5>),
-          (<h6>{gameEvent.description}</h6>))
+          <h6>{gameEvent.description}</h6>
         ) : (
           <h5>continue...</h5>
         )
