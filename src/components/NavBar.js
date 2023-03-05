@@ -23,15 +23,17 @@ function NavBar() {
       .then((resp) => resp.json())
       .then((gameEventData) => setGameEventData(gameEventData));
   }, []);
+
   return (
-    <div>
+    <div className="container">
       <Menu />
       <GameData
         count={count}
+        setCount={setCount}
         matchCount={matchCount}
         gameEventData={gameEventData}
       />
-      <Controls mapKeys={mapKeys} />
+      <Controls mapKeys={mapKeys} count={count} matchCount={matchCount} />
     </div>
   );
 }
